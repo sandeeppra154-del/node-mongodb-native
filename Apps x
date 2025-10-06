@@ -1,0 +1,25 @@
+whatsapp-clone/
+├─ backend/
+│  ├─ package.json
+│  ├─ .env
+│  ├─ server.js
+│  ├─ models/
+│  │  ├─ User.js
+│  │  └─ Message.js
+│  ├─ routes/
+│  │  ├─ auth.js
+│  │  └─ users.js
+│  └─ middleware/
+│     └─ auth.js
+└─ frontend/
+   ├─ package.json
+   ├─ src/
+   │  ├─ index.js
+   │  ├─ App.js
+   │  ├─ api.js
+   │  ├─ components/
+   │  │  ├─ Login.js
+   │  │  ├─ Register.js
+   │  │  ├─ ChatList.js
+   │  │  └─ ChatWindow.js
+   │  └─ styles.css
